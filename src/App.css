@@ -11,7 +11,7 @@ body {
 .navbar {
   width: 100%;
   height: 80px;
-  background-color: teal;
+  background-color: #344e41;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -46,6 +46,51 @@ body {
   color: white;
 }
 .user img {
+  margin-right: 5px;
   font-size: 15px;
   border-radius: 50%;
+}
+
+input,
+textarea {
+  font-family: "Nunito", sans-serif;
+}
+
+.create-post {
+  background: #dad7cd;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: #588157;
+  overflow: hidden;
+}
+
+input,
+textarea {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: #a3b18a;
+  border: 0px transparent;
+  border-radius: 5px;
+  color: #dad7cd;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.submitForm {
+  background-color: #3a5a40;
+}
+
+.submitForm:hover {
+  cursor: pointer;
+  background-color: #a3b18a;
 }
